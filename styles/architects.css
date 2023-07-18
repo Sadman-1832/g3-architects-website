@@ -17,13 +17,15 @@
     padding: 20px 25px;
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* header related styles */
 header {
     background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
 }
 
 /* nav related styles */
@@ -80,4 +82,29 @@ nav li a {
     font-size: 1rem;
     font-weight: 400;
 
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* media query styles */
+
+/* for mobiles */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 20px;
+    }
+}
+/* for tablets & other medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
 }
