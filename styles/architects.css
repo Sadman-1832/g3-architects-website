@@ -250,7 +250,7 @@ main {
 
 /* footer related styles */
 footer {
-    max-width: 1440px;
+    
     border-radius: 8px;
     background: #FFF4E7;
     background-position: center;
@@ -258,8 +258,8 @@ footer {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
-    padding: 40px;
-    
+    padding: 30px;
+    margin: auto;  
 }
 
 
